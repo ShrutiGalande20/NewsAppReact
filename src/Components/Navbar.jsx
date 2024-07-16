@@ -1,5 +1,7 @@
 // import React from 'react'
 
+import Login from "./Login";
+
 // const Navbar = ({setCategory}) => {
 //   return (
 //     <>
@@ -47,7 +49,6 @@
 
 // =-----------------------------
 
-import React from 'react';
 // import Home from './Home';
 
 const Navbar = ({ setCategory }) => {
@@ -99,6 +100,12 @@ const Navbar = ({ setCategory }) => {
               <li className="nav-item">
                 <a className="nav-link cursor-pointer hover:text-blue-500" onClick={() => setCategory('entertainment')}>
                   Entertainment
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link cursor-pointer hover:text-blue-500" onClick={() => setCategory('entertainment')}>
+                  Login
                 </a>
               </li>
             </ul>
