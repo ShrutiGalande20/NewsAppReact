@@ -102,12 +102,6 @@ const Navbar = ({ setCategory }) => {
                   Entertainment
                 </a>
               </li>
-
-              <li className="nav-item">
-                <a className="nav-link cursor-pointer hover:text-blue-500" onClick={() => setCategory('entertainment')}>
-                  Login
-                </a>
-              </li>
             </ul>
           </div>
         </div>
